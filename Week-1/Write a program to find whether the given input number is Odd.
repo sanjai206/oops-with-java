@@ -1,0 +1,24 @@
+import java.util.*;
+public class odd{
+public static void main(String args[])
+{
+int a,b;
+Scanner o=new Scanner(System.in);
+a=o.nextInt();
+if(a<0)
+{
+b=-(a);
+}
+else
+{
+b=a;
+}
+if(b%2==0){
+System.out.println("1");
+}
+else
+{
+System.out.println("2");
+}
+}
+}
